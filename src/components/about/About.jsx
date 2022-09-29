@@ -10,7 +10,7 @@ const About = () => {
     <section id ='about'>
       <h5>A little bit</h5>
       <h2>About Me</h2>
-
+    
       <div className='container about__container '>
         <div className='about__me'>
           <div className="about__me-image">
@@ -22,7 +22,7 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <AiOutlineTrophy className='about__icon'/>
-              <h3>Experience</h3>
+              <h3>Industry Experience</h3>
               <h4>5</h4>
               <h5>1 yrs: Technical <br/> 4 yrs: Tech Project Mgmt</h5>
             </article>
@@ -52,5 +52,6 @@ const About = () => {
     </section>
   )
 }
+
 
 export default About
