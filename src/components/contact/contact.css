@@ -35,4 +35,13 @@ input, textarea {
     grid-template-columns: 1fr;
     width: var(--container-width-sm)
   } 
+
+  form {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
 }

@@ -43,7 +43,9 @@ const About = () => {
           </div>
 
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Junior Full Stack Developer with 5+ years of industry experience spanning technical and project management roles. I leverage passion, hard work and diverse experience to achieve results. An advocate of grit, determination and rolled-up sleeves. A proponent of pushing the boundaries and finding the answer to “What is the best way we can do this? ” Above all, I am a team player who believes the sweetest victories are won together.	
+
+ 
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

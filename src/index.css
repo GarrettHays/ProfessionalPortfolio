@@ -61,23 +61,23 @@ h1 {
 
 section {
   margin-top: 6rem;
-  height: 87vh;
+  height: 86vh;
 }
 
 section#portfolio {
-  margin-top: -4rem;
-  height: 87vh;
+  margin-top: 7rem;
+  height: 80vh;
 }
 
 section#contact {
-  margin-top: 28rem;
-  margin-bottom: -10rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
   height: 87vh;
 }
 
 section#about {
-  margin-top: 12rem;
-  height: 87vh;
+  margin-top: 10rem;
+  height: 140vh;
 }
 
 section > h2, section > h5 {
@@ -140,15 +140,259 @@ img {
   section {
     margin-top: 6rem;
   }
+  
+  section#about {
+    margin-top: 8rem;
+    height: 87vh;
+  }
+
+  section#experience {
+    margin-top: 14rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 9rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 17rem;
+    height: 70vh;
+  }
+}
+
+
+
+@media (min-width: 475px) and (max-width: 1023px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .profile {
+    width: 17rem;
+    height: 19.5rem;
+    position: absolute;
+    left: calc(50% - 8.5rem);
+  }
+
+  .header__social,
+  .scroll__down {
+    display: none;
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+
+  section#about {
+    margin-top: 2rem;
+    height: 67vh;
+  }
+
+  section#experience {
+    margin-top: 37rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 20rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 70rem;
+    height: 80vh;
+  }
+}
+
+@media (min-width: 416px) and (max-width: 474px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  header {
+    height: 120vh;
+  }
+
+  .profile {
+    width: 17rem;
+    height: 19.5rem;
+    position: absolute;
+    left: calc(50% - 8.5rem);
+  }
+
+  .header__social,
+  .scroll__down {
+    display: none;
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+
+  section#about {
+    margin-top: 2rem;
+    height: 67vh;
+  }
+
+  section#experience {
+    margin-top: 37rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 20rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 70rem;
+    height: 80vh;
+  }
 }
 
 /* ================= Media Queries (Small Devices) ================ */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 415px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  header {
+    height: 110vh;
+  }
+
+  .profile {
+    width: 17rem;
+    height: 19.5rem;
+    position: absolute;
+    left: calc(50% - 8.5rem);
+  }
+
+  .header__social,
+  .scroll__down {
+    display: none;
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+
+  section#about {
+    margin-top: 0rem;
+    height: 67vh;
+  }
+
+  section#experience {
+    margin-top: 65rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 5rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 63rem;
+    height: 60vh;
+  }
+}
+
+/* ================= Media Queries (Small Devices) ================ */
+@media screen and (max-width: 400px) {
   .container {
     width: var(--container-width-sm);
   }
 
   section > h2 {
     margin-bottom: 2rem;
+  }
+
+  header {
+    height: 110vh;
+  }
+
+  .profile {
+    width: 17rem;
+    height: 19.5rem;
+    position: absolute;
+    left: calc(50% - 8.5rem);
+  }
+
+  .header__social,
+  .scroll__down {
+    display: none;
+  }
+
+  section#about {
+    margin-top: 0rem;
+    height: 67vh;
+  }
+
+  section#experience {
+    margin-top: 67rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 5rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 60rem;
+    height: 60vh;
+  }
+}
+
+/* ================= Media Queries (Small Devices) ================ */
+@media screen and (max-width: 375px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+
+  header {
+    height: 130vh;
+  }
+
+  .profile {
+    width: 17rem;
+    height: 19.5rem;
+    position: absolute;
+    left: calc(50% - 8.5rem);
+  }
+
+  .header__social,
+  .scroll__down {
+    display: none;
+  }
+
+  section#about {
+    margin-top: 5rem;
+    height: 67vh;
+  }
+
+  section#experience {
+    margin-top: 75rem;
+    height: 87vh;
+  }
+
+  section#portfolio {
+    margin-top: 15rem;
+    height: 87vh;
+  }
+
+  section#contact {
+    margin-top: 70rem;
+    height: 100vh;
   }
 }

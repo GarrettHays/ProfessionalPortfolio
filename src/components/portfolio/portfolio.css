@@ -7,14 +7,10 @@
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.3rem;
+  color: var(--color-bg);
   border-radius: 2rem;
   border: 1pm solid transparent;
   transition: var(--transition);
-}
-
-.portfolio__item:hover {
-  border-color: var(--color-primary-variant);
-  background: transparent;
 }
 
 .portfolio__item-image {
@@ -23,13 +19,32 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-bg);
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.portfolio__btn {
+  width: max-content;
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--color-bg-variant);
+  background-color: var(--color-bg);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-bg);
+  transition: var(--transition);
 }
 
 /* ================= Media Queries (Medium Devices) ================ */

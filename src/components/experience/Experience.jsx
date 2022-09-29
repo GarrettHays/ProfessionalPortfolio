@@ -19,42 +19,36 @@ const Experience = () => {
               <FaHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaCss3Alt className='experience__details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiJavascript className='experience__details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Experienced</small> 
               </div>
             </article>
             <article className='experience__details'>
               <FaReact className='experience__details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaAngular className='experience__details-icon'/>
               <div>
                 <h4>Angular</h4>
-                <small className='text-light'>Experienced</small> 
               </div>
             </article>
             <article className='experience__details'>
               <FaBootstrap className='experience__details-icon'/>
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
@@ -66,45 +60,39 @@ const Experience = () => {
         <h3>Backend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <SiCsharp color='var(--color-bg)'/>
+              <SiCsharp color='var(--color-bg)' className='experience__details-icon'/>
               <div>
                 <h4>C#</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiDotnet className='experience__details-icon'/>
               <div>
                 <h4>.NET</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <FaNodeJs className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiMysql className='experience__details-icon'/>
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <SiFirebase className='experience__details-icon'/>
               <div>
                 <h4>Firebase</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsGearFill className='experience__details-icon'/>
               <div>
                 <h4>REST API</h4>
-                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>

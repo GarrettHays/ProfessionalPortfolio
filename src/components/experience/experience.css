@@ -11,12 +11,6 @@
   border: 1px solid transparent;
 }
 
-/* .experience__container > div:hover {
-  background-color: transparent;
-  border-color: var(--color-primary-alt);
-  cursor: default;
-} */
-
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
@@ -37,6 +31,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  column-gap: 2rem;
 }
 
 .experience__details {
