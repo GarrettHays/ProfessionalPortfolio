@@ -8,21 +8,21 @@ const data = [
     image: IMG1,
     title: 'Project Title 1',
     desc: 'Short project description, written in languages. This is a placeholder where the description will go.',
-    github: 'https://github.com'
+    github: 'https://github.com/garretthays'
   },
   {
     id: 2,
     image: IMG1,
     title: 'Project Title 2',
     desc: 'Short project description, written in languages. This is a placeholder where the description will go.',
-    github: 'https://github.com'
+    github: 'https://github.com/garretthays'
   },
   {
     id: 3,
     image: IMG1,
     title: 'Project Title 3',
     desc: 'Short project description, written in languages. This is a placeholder where the description will go.',
-    github: 'https://github.com'
+    github: 'https://github.com/garretthays'
   },
 ]
 
