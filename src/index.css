@@ -210,7 +210,7 @@ img {
   }
 }
 
-@media (min-width: 416px) and (max-width: 474px) {
+@media screen and (max-width: 428px) {
   .container {
     width: var(--container-width-sm);
   }
