@@ -216,7 +216,7 @@ img {
   }
 
   header {
-    height: 140vh;
+    height: 130vh;
   }
 
   .profile {
@@ -241,18 +241,18 @@ img {
   }
 
   section#experience {
-    margin-top: 75rem;
+    margin-top: 70rem;
     height: 87vh;
   }
 
   section#portfolio {
-    margin-top: 20rem;
+    margin-top: 15rem;
     height: 87vh;
   }
 
   section#contact {
-    margin-top: 78rem;
-    height: 80vh;
+    margin-top: 73rem;
+    height: 75vh;
   }
 }
 

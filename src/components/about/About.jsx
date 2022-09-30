@@ -31,7 +31,7 @@ const About = () => {
               <BsPeople className='about__icon'/>
               <h3>Clients</h3>
               <h4>25+</h4>
-              <h5>world-wide, sized from startup to Fortune 500</h5>
+              <h5>varying in size, startup to Fortune 500</h5>
             </article>
 
             <article className='about__card'>
